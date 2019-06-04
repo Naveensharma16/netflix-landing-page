@@ -1,0 +1,390 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+body{
+ background-color: black;
+}
+
+/*It shows the first div of the netflix page the below classes are for first div */
+
+.firstdiv{
+      /* width: 100vw; */
+      height: 100vh;
+      text-align: center;
+      /* border-bottom: 8px solid #3C3B3F; */
+}
+.firstdiv .place{
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); */
+  margin-top: 10vh;
+}
+.firstdiv .place .haveac{
+  padding-top: 5vh;
+}
+.haveac a{
+  color: white;
+  text-decoration: underline;
+}
+.firstdiv nav{
+  margin-top: 0vh;
+}
+.firstdiv h1{
+      font-size: 10vh;
+      color: white;
+}
+.firstdiv span{
+      font-size: 3vh;
+      color: white;
+      /* margin-bottom: 50px; */
+      display: block;
+}
+
+.firstdiv .free{
+  margin:auto;
+  margin-top: 70px;
+  display:block;
+   background-color: red;
+  border: none;
+  /* text-align: center; */
+  width: 30vw;
+  height: 8.5vh;
+  font-size:2vw;
+  color: white;
+  border-radius: 3px;
+  outline: none;
+  text-transform: uppercase;
+  white-space: normal;
+}
+.firstdiv .free i{
+  padding-left: 5px;
+}
+
+.firstdiv .navbar-header .navbar-brand{
+   /* margin-top: 3vh; */
+   /* color: red;
+   text-shadow: none; */
+   font-size: 5vh;
+}
+
+.firstdiv .navbar-header img{
+  width: 20vw;
+  height: 15vh;
+}
+
+.firstdiv .navbar ul{
+  margin-right: 5vw;
+  margin-top:5vh;
+  width: 5vw;
+  height: 5vh;
+ background-color: red;
+ color: white;
+}
+
+.firstdiv .set{
+  text-align: center;
+}
+
+
+/* classes for the first div endes here */
+
+
+/* classes for the carousel ends here*/
+
+
+/*the second div starts from here and below classes are used in in in second div   */
+
+.our-story-card-text{
+   text-align: center;
+   border-bottom: 8px solid #3C3B3F;
+   position: relative;
+}
+.our-story-card-text h1{
+  color: white;
+  font-weight: bold;
+  font-size: 4em;
+}
+.our-story-card-progressbar{
+
+}
+.progress{
+  /* margin-left: 2vw; */
+  height: 5vh;
+  /* width: 50vw; */
+  border-radius: 50px;
+  border-right: 0px ;
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #434343, #000000);
+  box-sizing: content-box;
+  white-space: nowrap;
+  display: block;
+
+}
+.progress-bar{
+  background-color: #009432 !important;
+  background-image: unset;
+
+}
+.gola{
+  border: 1px solid white;
+  background: white;
+  width: 3vw;
+  height: 5vh;
+  border-radius: 50%;
+  display: inline;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.gola1-position{
+  position: absolute;
+  top: 0%;
+  /* left: 49%; */
+  transform: translate(-45%);
+}
+.gola2-position{
+  position: absolute;
+  top: 0%;
+  left: 83%;
+  transform: translate(-50%);
+}
+.danda{
+  height: 10vh;
+  width: 0.4vw;
+  border: 1.5px solid black;
+  border-top: none;
+  background-color: white;
+  position: absolute;
+  top: 0%;
+  left: 40%;
+  transform: translate(-40%);
+}
+.lifafa{
+  position: absolute;
+  /* top: 50%; */
+  left: 38%;
+  /* transform: translate(-50%); */
+}
+
+
+.our-story-card-message{
+  max-width:100vw;
+  margin: 1rem auto;
+  font-size: 2vw;
+  color: white;
+}
+.our-story-card-text .free{
+  margin:auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  /* display:block; */
+  background-color: red;
+  border: none;
+  /* text-align: center; */
+  width: 30vw;
+  height: 8.5vh;
+  font-size:2vw;
+  color: white;
+  border-radius: 3px;
+  outline: none;
+  text-transform: uppercase;
+  white-space: normal;
+}
+
+/*advertisement classes */
+.setting{
+  position: relative;
+}
+ .firstaddata{
+   color: white;
+   margin-top: 9vh !important;
+   margin-bottom: 8vh !important;
+   margin-left: 25vh !important;
+   height: 40vh;
+   border-radius: 5px;
+ }
+ .firstaddata h1{
+     font-size: 3vw;
+ }
+ .firstaddata p{
+    font-size: 1.5vw;
+ }
+.firstaddata button{
+   color: white;
+   background-color: black;
+   border:1px solid white;
+   width: 25vw;
+   height: 5vh;
+   font-size: 3.5vh;
+}
+
+.firstadimage{
+  /* margin-top: 0vh !important; */
+  /* margin-bottom: 8vh !important;
+  margin-left: 10vh !important;
+  border-radius: 3px; */
+  width: 37vw;
+  height: 50vh;
+
+}
+.adimagefirst{
+  margin-top: 2vh;
+  width: 40vw;
+  height: 50vh;
+}
+
+.secondimage{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ width: 32vw;
+ height: 30vh;
+ z-index: -1;
+}
+.punisher{
+  position: absolute;
+  top: 32%;
+  left: 40%;
+  transform: translate(-32%,-40%);
+  z-index: -1;
+  width: 25.2vw;
+  height: 28vh;
+}
+.nopadding{
+  margin:0;
+  padding:0;
+}
+
+.stranger-card{
+     width: 25vw;
+     height: 15vh;
+     border: 2px solid grey;
+     border-radius: 10px;
+     position: absolute;
+     top:85%;
+     left: 62%;
+     transform: translate(-75%,-60%);
+     background-color: black;
+}
+.stranger-card .img{
+   margin-top: 1.2vh;
+   margin-left: 1vw;
+     width: 4vw;
+     height: 12vh;
+}
+.stranger-card .text{
+    margin-top: 3vh;
+    margin-left: 1vw;
+}
+.stranger-card .text::after{
+  content: '';
+  display:inline;
+  background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif") center  no-repeat;
+  width: 3em;
+   height: 3em;
+   outline: 2px solid #000;
+   outline-offset: -2px;
+   background-size: 100%;
+   flex-grow: 0;
+   flex-shrink: 0;
+}
+.stranger-card .text1{
+   color: white;
+   font-size: 1.5vw;
+}
+.stranger-card .text2{
+  color: blue;
+  font-size: 1vw;
+}
+
+/*advertisement classes ends here*/
+
+
+/* the third div having faq starts from here */
+
+.FAQ{
+  text-align: center;
+  min-height: 100vh;
+  border-bottom: 8px solid #3C3B3F;
+}
+.FAQ h1{
+  color: white;
+  font-weight: bold;
+  letter-spacing: normal;
+  line-height: 2.8;
+  font-size: 3.5em;
+}
+.FAQ button{
+  margin: auto;
+  width:50vw;
+  height: 10vh;
+  display: block;
+  background-color: #303030;
+  border:none;
+  margin-top: 10px;
+  margin-bottom:10px;
+  color: white;
+  font-size: 2vw;
+  outline: none;
+}
+.collap{
+  background-color: #303030;
+  width: 50vw;
+  margin: auto;
+  color: white;
+  font-size: 2vw;
+
+}
+/* classes for footer  */
+.footer{
+  /* width: 100vw; */
+   height: 40vh;
+   margin-top: 100px;
+   text-align: justify;
+}
+/* .footer a{
+    color:  #ecf0f1;
+} */
+.footer .col-lg-12 span{
+    /* text-align: left !important; */
+    color: white;
+
+}
+
+.footer ul{
+  list-style: none;
+  line-height: 2.5;
+  font-size: 1vw;
+  color: #ecf0f1;
+  display: inline-block;
+  text-align: justify !important;
+  padding-left: 6vw;
+}
+
+.footer ul li:hover{
+  text-decoration: underline;
+}
+
+
+/*classes used for setting the fonts of headings advertisement heading normal text and footer */
+
+/* this class is used for normal text*/
+.othertext{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+/* this class is used for advertisement heading */
+.adheading{
+  font-family: 'Vollkorn', serif;
+}
+/*this class is used for the footer  */
+.footer .footerfont{
+  font-family: 'Lora', serif;
+}
+/*this class is used for the main headings  */
+.heading{
+   font-family: 'Oswald', sans-serif;
+}
